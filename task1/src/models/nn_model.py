@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
-from typing import Optional
+from tqdm import tqdm
 
 from ..interface import MnistClassifierInterface
 
@@ -52,13 +52,15 @@ class FeedForwardNN(MnistClassifierInterface):
         self.model.train()
         for epoch in range(self.epochs):
             total_loss = 0
-            for x_batch, y_batch in loader:
+            training_loop = tqdm(loader, desc=f"Epoch {epoch + 1}/{self.epochs}")
+            for x_batch, y_batch in training_loop:
                 self.optimizer.zero_grad()
                 output = self.model(x_batch)
                 loss = self.criterion(output, y_batch)
                 loss.backward()
                 self.optimizer.step()
                 total_loss += loss.item()
+                training_loop.set_postfix(loss=f"{loss.item():.4f}")
 
             avg_loss = total_loss / len(loader)
             print(f"Epoch {epoch+1}/{self.epochs} | Loss: {avg_loss:.4f}")
