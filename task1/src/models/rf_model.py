@@ -7,9 +7,9 @@ from typing import Optional
 class RandomForestModel(MnistClassifierInterface):
     def __init__(
             self,
-            n_estimators: Optional[int] = 300,
-            n_jobs: Optional[int] = 1,
-            random_state: Optional[int] = 42,
+            n_estimators: int = 300,
+            n_jobs: int = 1,
+            random_state: int = 42,
             **kwargs,
     ):
         self.rf = RandomForestClassifier(
