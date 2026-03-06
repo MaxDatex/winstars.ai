@@ -22,6 +22,7 @@ class MnistClassifier:
             torch.cuda.manual_seed_all(seed)
 
     def _get_model(self, algorithm) -> MnistClassifierInterface:
+        algorithm = algorithm.strip().lower()
         if algorithm == 'rf':
             return RandomForestModel()
         if algorithm == 'nn':
