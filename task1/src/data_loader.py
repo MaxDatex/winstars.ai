@@ -13,12 +13,6 @@ def load_mnist_dataset(
     Downloads, normalizes, and splits the MNIST dataset.
     Returns: X_train, X_test, y_train, y_test as numpy arrays.
     """
-    x: pd.DataFrame
-    y: pd.Series
-    x_train: pd.DataFrame
-    y_train: pd.Series
-    x_test: pd.DataFrame
-    y_test: pd.Series
 
     mnist = fetch_openml('mnist_784')
 
