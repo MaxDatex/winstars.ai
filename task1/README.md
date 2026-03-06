@@ -14,8 +14,17 @@ The core of this project is the MnistClassifierInterface. By enforcing this inte
 
 ### 1. Installation
 
-Ensure you have Python 3.9+ installed. It is recommended to use a virtual environment.
-
+Clone the Repository
+```bash
+git clone https://github.com/MaxDatex/winstars.ai.git
+cd mnist_project
+```
+Create a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+Install Dependencies
 ```bash
 ## Install dependencies
 pip install -r requirements.txt
@@ -23,22 +32,25 @@ pip install -r requirements.txt
 
 ### 2. Usage Example
 
-The beauty of the implementation is its simplicity. You don't need to know how the models work internally to use them.
+You can switch between rf, nn, and cnn by simply changing the string input in the constructor.
 
 ```python
-from data_loader import load_mnist_dataset
-from classifier import MnistClassifier
+from src.data_loader import load_mnist_dataset
+from src.classifier import MnistClassifier
 
-# Load normalized data
-x_train, x_test, y_train, y_test = load_mnist_dataset()
+# 1. Load Data
+X_train, X_test, y_train, y_test = load_mnist_dataset()
 
-# Initialize with desired algorithm: 'rf', 'nn', or 'cnn'
+# 2. Initialize (choose: 'rf', 'nn', or 'cnn')
 clf = MnistClassifier(algorithm='cnn')
 
-# The interface is identical for all three
-clf.train(x_train, y_train)
-results = clf.predict(x_test)
+# 3. Train
+clf.train(X_train, y_train)
+
+# 4. Predict
+predictions = clf.predict(X_test)
 ```
+
 
 ## 🧠 Implementation Details
 The system supports three distinct classification strategies, each tailored for the MNIST dataset:
