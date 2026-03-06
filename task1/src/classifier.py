@@ -19,7 +19,7 @@ class MnistClassifier:
         np.random.seed(seed)
         torch.manual_seed(seed)
         if torch.cuda.is_available():
-            torch.cuda.manual_seed(seed)
+            torch.cuda.manual_seed_all(seed)
 
     def _get_model(self, algorithm) -> MnistClassifierInterface:
         if algorithm == 'rf':

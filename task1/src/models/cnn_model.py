@@ -22,7 +22,7 @@ class CNNArchitecture(nn.Module):
             nn.Linear(64 * 7 * 7, 128),
             nn.ReLU(),
             nn.Dropout(0.2),
-            nn.Linear(128, 64),
+            nn.Linear(128, 10),
         )
 
     def forward(self, x):

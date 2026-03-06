@@ -19,10 +19,7 @@ class RandomForestModel(MnistClassifierInterface):
         )
 
     def train(self, x_train, y_train):
-        print("Training...")
         self.rf.fit(x_train, y_train)
-        print("Training Complete")
 
     def predict(self, x_test):
-        print("Predicting...")
         return self.rf.predict(x_test)

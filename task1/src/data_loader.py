@@ -11,7 +11,7 @@ def load_mnist_dataset(
 ) -> Tuple[pd.DataFrame, pd.DataFrame, pd.Series, pd.Series]:
     """
     Downloads, normalizes, and splits the MNIST dataset.
-    Returns: X_train, X_test, y_train, y_test as numpy arrays.
+    Returns: x_train, x_test as pd.DataFrame, y_train, y_test as pd.Series
     """
 
     mnist = fetch_openml('mnist_784')
