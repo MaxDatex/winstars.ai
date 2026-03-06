@@ -1,7 +1,6 @@
 from sklearn.ensemble import RandomForestClassifier
 
 from ..interface import MnistClassifierInterface
-from typing import Optional
 
 
 class RandomForestModel(MnistClassifierInterface):

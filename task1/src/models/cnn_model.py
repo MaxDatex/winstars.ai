@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader, TensorDataset
+from torch.utils.data import DataLoader, TensorDataset
 from tqdm import tqdm
 
 from ..interface import MnistClassifierInterface

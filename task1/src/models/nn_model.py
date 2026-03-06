@@ -1,4 +1,3 @@
-import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -63,7 +62,7 @@ class FeedForwardNN(MnistClassifierInterface):
                 training_loop.set_postfix(loss=f"{loss.item():.4f}")
 
             avg_loss = total_loss / len(loader)
-            print(f"Epoch {epoch+1}/{self.epochs} | Loss: {avg_loss:.4f}")
+            print(f"Epoch {epoch + 1}/{self.epochs} | Loss: {avg_loss:.4f}")
 
     def predict(self, x_test):
         x = self._prepare_data(x_test)

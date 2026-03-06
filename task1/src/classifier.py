@@ -9,7 +9,6 @@ from .models.nn_model import FeedForwardNN
 from .models.cnn_model import CNN
 
 
-#TODO Should algorithm be self.algorithm?
 class MnistClassifier:
     def __init__(self, algorithm: str, random_state: int = 42):
         self._set_seed(random_state)

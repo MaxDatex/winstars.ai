@@ -6,8 +6,8 @@ import pandas as pd
 
 
 def load_mnist_dataset(
-        test_size: float=0.2,
-        random_state: int=42
+        test_size: float = 0.2,
+        random_state: int = 42
 ) -> Tuple[pd.DataFrame, pd.DataFrame, pd.Series, pd.Series]:
     """
     Downloads, normalizes, and splits the MNIST dataset.
