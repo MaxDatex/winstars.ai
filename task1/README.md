@@ -2,6 +2,23 @@
 
 This project implements a robust and extensible system for classifying the MNIST dataset using three different machine learning approaches. The architecture is built on the Strategy Design Pattern, ensuring that different models can be swapped in and out with zero friction for the end-user.
 
+### Directory structure
+```bash
+task1
+├── src
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── cnn_model.py
+│   │   ├── nn_model.py
+│   │   └── rf_model.py
+│   ├── __init__.py
+│   ├── classifier.py
+│   ├── data_loader.py
+│   └── interface.py
+├── README.md
+└── requirements.txt
+```
+
 ## 🏗 Architecture & Design
 
 The core of this project is the MnistClassifierInterface. By enforcing this interface, we ensure that regardless of whether the model is a simple Scikit-learn ensemble or a complex PyTorch Convolutional Neural Network, the high-level API remains consistent:
