@@ -1,4 +1,4 @@
-from task1.src.interface import MnistClassifierInterface
+from ..interface import MnistClassifierInterface
 
 
 class CNN(MnistClassifierInterface):
