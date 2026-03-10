@@ -1,6 +1,7 @@
 import random
 
 import numpy as np
+import pandas as pd
 import torch
 
 from .interface import MnistClassifierInterface
@@ -10,9 +11,9 @@ from .models.cnn_model import CNN
 
 
 class MnistClassifier:
-    def __init__(self, algorithm: str, random_state: int = 42):
+    def __init__(self, algorithm: str, random_state: int = 42) -> None:
         self._set_seed(random_state)
-        self.model = self._get_model(algorithm)
+        self.model: MnistClassifierInterface = self._get_model(algorithm)
 
     def _set_seed(self, seed: int):
         random.seed(seed)
@@ -21,8 +22,8 @@ class MnistClassifier:
         if torch.cuda.is_available():
             torch.cuda.manual_seed_all(seed)
 
-    def _get_model(self, algorithm) -> MnistClassifierInterface:
-        algorithm = algorithm.strip().lower()
+    def _get_model(self, algorithm: str) -> MnistClassifierInterface:
+        algorithm: str = algorithm.strip().lower()
         if algorithm == 'rf':
             return RandomForestModel()
         if algorithm == 'nn':
@@ -33,8 +34,8 @@ class MnistClassifier:
             f"Unknown algorithm: {algorithm}. Valid options are: 'rf', 'nn', 'cnn'"
         )
 
-    def train(self, x_train, y_train):
+    def train(self, x_train: pd.DataFrame, y_train: pd.Series) -> None:
         self.model.train(x_train, y_train)
 
-    def predict(self, x_test):
+    def predict(self, x_test: pd.DataFrame) -> np.ndarray:
         return self.model.predict(x_test)

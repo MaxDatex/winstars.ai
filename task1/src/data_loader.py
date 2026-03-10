@@ -1,13 +1,12 @@
 from sklearn.datasets import fetch_openml
 from sklearn.model_selection import train_test_split
 import numpy as np
-from typing import Tuple
 import pandas as pd
 
 
 def load_mnist_dataset(
     test_size: float = 0.2, random_state: int = 42
-) -> Tuple[pd.DataFrame, pd.DataFrame, pd.Series, pd.Series]:
+) -> tuple[pd.DataFrame, pd.DataFrame, pd.Series, pd.Series]:
     """
     Downloads, normalizes, and splits the MNIST dataset.
     Returns: x_train, x_test as pd.DataFrame, y_train, y_test as pd.Series

@@ -1,0 +1,7576 @@
+[
+  {
+    "sentence": "My friend has a ram and this looks just like it.",
+    "tokens": [
+      "My",
+      "friend",
+      "has",
+      "a",
+      "ram",
+      "and",
+      "this",
+      "looks",
+      "just",
+      "like",
+      "it."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "The image shows a husky.",
+    "tokens": [
+      "The",
+      "image",
+      "shows",
+      "a",
+      "husky."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Look at this ewe!",
+    "tokens": [
+      "Look",
+      "at",
+      "this",
+      "ewe!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "There is a pony in the picture.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "pony",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "There appears to be a kitten in this image.",
+    "tokens": [
+      "There",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "kitten",
+      "in",
+      "this",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "There is a husky in the image.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "husky",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Is that a elephants in the picture?",
+    "tokens": [
+      "Is",
+      "that",
+      "a",
+      "elephants",
+      "in",
+      "the",
+      "picture?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "A hound is clearly shown here.",
+    "tokens": [
+      "A",
+      "hound",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I think this is a moth.",
+    "tokens": [
+      "I",
+      "think",
+      "this",
+      "is",
+      "a",
+      "moth."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "Is this a horse?",
+    "tokens": [
+      "Is",
+      "this",
+      "a",
+      "horse?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "I'm pretty sure that's a horses.",
+    "tokens": [
+      "I'm",
+      "pretty",
+      "sure",
+      "that's",
+      "a",
+      "horses."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "A tabby is sitting in the photo.",
+    "tokens": [
+      "A",
+      "tabby",
+      "is",
+      "sitting",
+      "in",
+      "the",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "This image contains a kittens.",
+    "tokens": [
+      "This",
+      "image",
+      "contains",
+      "a",
+      "kittens."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "A siamese is clearly shown here.",
+    "tokens": [
+      "A",
+      "siamese",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "A flock is visible in this picture.",
+    "tokens": [
+      "A",
+      "flock",
+      "is",
+      "visible",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "My friend has a hound and this looks just like it.",
+    "tokens": [
+      "My",
+      "friend",
+      "has",
+      "a",
+      "hound",
+      "and",
+      "this",
+      "looks",
+      "just",
+      "like",
+      "it."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The image shows a spider.",
+    "tokens": [
+      "The",
+      "image",
+      "shows",
+      "a",
+      "spider."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "I can see a siamese here.",
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "siamese",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "That looks like a kittens to me.",
+    "tokens": [
+      "That",
+      "looks",
+      "like",
+      "a",
+      "kittens",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "A chick is standing in the picture.",
+    "tokens": [
+      "A",
+      "chick",
+      "is",
+      "standing",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "Do you think that is a tarantula?",
+    "tokens": [
+      "Do",
+      "you",
+      "think",
+      "that",
+      "is",
+      "a",
+      "tarantula?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "This picture shows a butterflies.",
+    "tokens": [
+      "This",
+      "picture",
+      "shows",
+      "a",
+      "butterflies."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "This is clearly a siamese.",
+    "tokens": [
+      "This",
+      "is",
+      "clearly",
+      "a",
+      "siamese."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "Might this be a poultry?",
+    "tokens": [
+      "Might",
+      "this",
+      "be",
+      "a",
+      "poultry?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "I can see a feline here.",
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "feline",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "The feline in this photo is interesting.",
+    "tokens": [
+      "The",
+      "feline",
+      "in",
+      "this",
+      "photo",
+      "is",
+      "interesting."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "There appears to be a spider in this image.",
+    "tokens": [
+      "There",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "spider",
+      "in",
+      "this",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "What a beautiful arachnid!",
+    "tokens": [
+      "What",
+      "a",
+      "beautiful",
+      "arachnid!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "Might this be a husky?",
+    "tokens": [
+      "Might",
+      "this",
+      "be",
+      "a",
+      "husky?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "It looks like there's a spider here.",
+    "tokens": [
+      "It",
+      "looks",
+      "like",
+      "there's",
+      "a",
+      "spider",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "What a lovely cattle.",
+    "tokens": [
+      "What",
+      "a",
+      "lovely",
+      "cattle."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "A thoroughbred appears in this photo.",
+    "tokens": [
+      "A",
+      "thoroughbred",
+      "appears",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "There appears to be a black widow in this image.",
+    "tokens": [
+      "There",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "black",
+      "widow",
+      "in",
+      "this",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "Could this be a bovine?",
+    "tokens": [
+      "Could",
+      "this",
+      "be",
+      "a",
+      "bovine?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "Oh wow, a rooster!",
+    "tokens": [
+      "Oh",
+      "wow,",
+      "a",
+      "rooster!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "Is that a spider in the picture?",
+    "tokens": [
+      "Is",
+      "that",
+      "a",
+      "spider",
+      "in",
+      "the",
+      "picture?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "A horse appears in this photo.",
+    "tokens": [
+      "A",
+      "horse",
+      "appears",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "I believe that is a hen.",
+    "tokens": [
+      "I",
+      "believe",
+      "that",
+      "is",
+      "a",
+      "hen."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "A caterpillar is visible here.",
+    "tokens": [
+      "A",
+      "caterpillar",
+      "is",
+      "visible",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "A squirrel appears in this photo.",
+    "tokens": [
+      "A",
+      "squirrel",
+      "appears",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "Oh look, a lamb.",
+    "tokens": [
+      "Oh",
+      "look,",
+      "a",
+      "lamb."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "The spiders is clearly visible.",
+    "tokens": [
+      "The",
+      "spiders",
+      "is",
+      "clearly",
+      "visible."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "Look at this poodle!",
+    "tokens": [
+      "Look",
+      "at",
+      "this",
+      "poodle!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Is this a spiders?",
+    "tokens": [
+      "Is",
+      "this",
+      "a",
+      "spiders?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "A labrador is visible here.",
+    "tokens": [
+      "A",
+      "labrador",
+      "is",
+      "visible",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "That is a feline.",
+    "tokens": [
+      "That",
+      "is",
+      "a",
+      "feline."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "Look at that caterpillar.",
+    "tokens": [
+      "Look",
+      "at",
+      "that",
+      "caterpillar."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "This is clearly a squirrel.",
+    "tokens": [
+      "This",
+      "is",
+      "clearly",
+      "a",
+      "squirrel."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "The spiders looks healthy.",
+    "tokens": [
+      "The",
+      "spiders",
+      "looks",
+      "healthy."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "A butterfly is visible here.",
+    "tokens": [
+      "A",
+      "butterfly",
+      "is",
+      "visible",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "A ewe is clearly shown here.",
+    "tokens": [
+      "A",
+      "ewe",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "A beagle is sitting in the photo.",
+    "tokens": [
+      "A",
+      "beagle",
+      "is",
+      "sitting",
+      "in",
+      "the",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "There is a kitten in the picture.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "kitten",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "I see a thoroughbred in the image.",
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "thoroughbred",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Check out this golden retriever!",
+    "tokens": [
+      "Check",
+      "out",
+      "this",
+      "golden",
+      "retriever!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Could this be a dog?",
+    "tokens": [
+      "Could",
+      "this",
+      "be",
+      "a",
+      "dog?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The animal in the picture is a ewe.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "is",
+      "a",
+      "ewe."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "The sheep is clearly visible.",
+    "tokens": [
+      "The",
+      "sheep",
+      "is",
+      "clearly",
+      "visible."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "Check out this bulldog!",
+    "tokens": [
+      "Check",
+      "out",
+      "this",
+      "bulldog!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "A kittens is standing in the picture.",
+    "tokens": [
+      "A",
+      "kittens",
+      "is",
+      "standing",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "That is a equine.",
+    "tokens": [
+      "That",
+      "is",
+      "a",
+      "equine."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "This image contains a black widow.",
+    "tokens": [
+      "This",
+      "image",
+      "contains",
+      "a",
+      "black",
+      "widow."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "I can see a pony here.",
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "pony",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "There seems to be a ewe in this picture.",
+    "tokens": [
+      "There",
+      "seems",
+      "to",
+      "be",
+      "a",
+      "ewe",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "I think that is a squirrel.",
+    "tokens": [
+      "I",
+      "think",
+      "that",
+      "is",
+      "a",
+      "squirrel."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "That is a cat.",
+    "tokens": [
+      "That",
+      "is",
+      "a",
+      "cat."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "I see a chickens in the image.",
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "chickens",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "I can see a poultry in this picture.",
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "poultry",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "The animal in the photo is a mustang.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "mustang."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "The animal in the photo is a spiders.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "spiders."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "You can see a hound in this photo.",
+    "tokens": [
+      "You",
+      "can",
+      "see",
+      "a",
+      "hound",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "That animal looks like a rooster.",
+    "tokens": [
+      "That",
+      "animal",
+      "looks",
+      "like",
+      "a",
+      "rooster."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "Look at that chipmunk.",
+    "tokens": [
+      "Look",
+      "at",
+      "that",
+      "chipmunk."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "That's definitely a tusker.",
+    "tokens": [
+      "That's",
+      "definitely",
+      "a",
+      "tusker."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "Is this a puppies?",
+    "tokens": [
+      "Is",
+      "this",
+      "a",
+      "puppies?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Check out this dogs!",
+    "tokens": [
+      "Check",
+      "out",
+      "this",
+      "dogs!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Look at that bulldog.",
+    "tokens": [
+      "Look",
+      "at",
+      "that",
+      "bulldog."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I'm pretty sure that's a cat.",
+    "tokens": [
+      "I'm",
+      "pretty",
+      "sure",
+      "that's",
+      "a",
+      "cat."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "The photo contains a chipmunk.",
+    "tokens": [
+      "The",
+      "photo",
+      "contains",
+      "a",
+      "chipmunk."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "That animal looks like a kitty.",
+    "tokens": [
+      "That",
+      "animal",
+      "looks",
+      "like",
+      "a",
+      "kitty."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "A lambs appears in this photo.",
+    "tokens": [
+      "A",
+      "lambs",
+      "appears",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "A kittens is visible in this picture.",
+    "tokens": [
+      "A",
+      "kittens",
+      "is",
+      "visible",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "There seems to be a cows in this picture.",
+    "tokens": [
+      "There",
+      "seems",
+      "to",
+      "be",
+      "a",
+      "cows",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "The squirrel looks healthy.",
+    "tokens": [
+      "The",
+      "squirrel",
+      "looks",
+      "healthy."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "I think this is a horses.",
+    "tokens": [
+      "I",
+      "think",
+      "this",
+      "is",
+      "a",
+      "horses."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "A ox is visible here.",
+    "tokens": [
+      "A",
+      "ox",
+      "is",
+      "visible",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "The animal in the picture is a poultry.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "is",
+      "a",
+      "poultry."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "I'm pretty sure that's a lamb.",
+    "tokens": [
+      "I'm",
+      "pretty",
+      "sure",
+      "that's",
+      "a",
+      "lamb."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "That animal looks like a butterfly.",
+    "tokens": [
+      "That",
+      "animal",
+      "looks",
+      "like",
+      "a",
+      "butterfly."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "Look at this siamese!",
+    "tokens": [
+      "Look",
+      "at",
+      "this",
+      "siamese!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "A german shepherd appears in this photo.",
+    "tokens": [
+      "A",
+      "german",
+      "shepherd",
+      "appears",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "A lamb is visible in this picture.",
+    "tokens": [
+      "A",
+      "lamb",
+      "is",
+      "visible",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "Could that be a beagle in the image?",
+    "tokens": [
+      "Could",
+      "that",
+      "be",
+      "a",
+      "beagle",
+      "in",
+      "the",
+      "image?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Oh look, a cow.",
+    "tokens": [
+      "Oh",
+      "look,",
+      "a",
+      "cow."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "It looks like there's a arachnid here.",
+    "tokens": [
+      "It",
+      "looks",
+      "like",
+      "there's",
+      "a",
+      "arachnid",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "Is this a butterfly?",
+    "tokens": [
+      "Is",
+      "this",
+      "a",
+      "butterfly?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "A squirrel is standing in the picture.",
+    "tokens": [
+      "A",
+      "squirrel",
+      "is",
+      "standing",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "Could that be a lambs in the image?",
+    "tokens": [
+      "Could",
+      "that",
+      "be",
+      "a",
+      "lambs",
+      "in",
+      "the",
+      "image?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "The photo contains a spider.",
+    "tokens": [
+      "The",
+      "photo",
+      "contains",
+      "a",
+      "spider."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "The animal in the picture is a bovine.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "is",
+      "a",
+      "bovine."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "There is a arachnid in the picture.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "arachnid",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "I'm pretty sure that's a horse.",
+    "tokens": [
+      "I'm",
+      "pretty",
+      "sure",
+      "that's",
+      "a",
+      "horse."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "A sheep is visible here.",
+    "tokens": [
+      "A",
+      "sheep",
+      "is",
+      "visible",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "I have a chipmunk at home and this looks similar.",
+    "tokens": [
+      "I",
+      "have",
+      "a",
+      "chipmunk",
+      "at",
+      "home",
+      "and",
+      "this",
+      "looks",
+      "similar."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "Could that be a chickens in the image?",
+    "tokens": [
+      "Could",
+      "that",
+      "be",
+      "a",
+      "chickens",
+      "in",
+      "the",
+      "image?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "There is a bovine in the picture.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "bovine",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "A calf is visible here.",
+    "tokens": [
+      "A",
+      "calf",
+      "is",
+      "visible",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "The siamese is clearly visible.",
+    "tokens": [
+      "The",
+      "siamese",
+      "is",
+      "clearly",
+      "visible."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "That is a kitty.",
+    "tokens": [
+      "That",
+      "is",
+      "a",
+      "kitty."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "There is a dog in the image.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "dog",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I can see a caterpillar here.",
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "caterpillar",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "That animal looks like a equine.",
+    "tokens": [
+      "That",
+      "animal",
+      "looks",
+      "like",
+      "a",
+      "equine."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "There is a kitty in the picture.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "kitty",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "Might this be a chicken?",
+    "tokens": [
+      "Might",
+      "this",
+      "be",
+      "a",
+      "chicken?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "There is a chick in the image.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "chick",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "What a beautiful beagle!",
+    "tokens": [
+      "What",
+      "a",
+      "beautiful",
+      "beagle!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "What a beautiful cows!",
+    "tokens": [
+      "What",
+      "a",
+      "beautiful",
+      "cows!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "I believe that is a lambs.",
+    "tokens": [
+      "I",
+      "believe",
+      "that",
+      "is",
+      "a",
+      "lambs."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "Look at that squirrel.",
+    "tokens": [
+      "Look",
+      "at",
+      "that",
+      "squirrel."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "Might this be a lamb?",
+    "tokens": [
+      "Might",
+      "this",
+      "be",
+      "a",
+      "lamb?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "Look at this mustang!",
+    "tokens": [
+      "Look",
+      "at",
+      "this",
+      "mustang!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "There is a cat in the image.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "cat",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "The animal in the photo is a poodle.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "poodle."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I believe that is a caterpillar.",
+    "tokens": [
+      "I",
+      "believe",
+      "that",
+      "is",
+      "a",
+      "caterpillar."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "Might this be a persian?",
+    "tokens": [
+      "Might",
+      "this",
+      "be",
+      "a",
+      "persian?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "The ewe is clearly visible.",
+    "tokens": [
+      "The",
+      "ewe",
+      "is",
+      "clearly",
+      "visible."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "Do you think that is a equine?",
+    "tokens": [
+      "Do",
+      "you",
+      "think",
+      "that",
+      "is",
+      "a",
+      "equine?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "A horse is sitting in the photo.",
+    "tokens": [
+      "A",
+      "horse",
+      "is",
+      "sitting",
+      "in",
+      "the",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "A equine is sitting in the photo.",
+    "tokens": [
+      "A",
+      "equine",
+      "is",
+      "sitting",
+      "in",
+      "the",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Oh look, a calf.",
+    "tokens": [
+      "Oh",
+      "look,",
+      "a",
+      "calf."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "It looks like there's a kitty here.",
+    "tokens": [
+      "It",
+      "looks",
+      "like",
+      "there's",
+      "a",
+      "kitty",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "I see a butterfly in the image.",
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "butterfly",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "The persian looks healthy.",
+    "tokens": [
+      "The",
+      "persian",
+      "looks",
+      "healthy."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "This might be a flock.",
+    "tokens": [
+      "This",
+      "might",
+      "be",
+      "a",
+      "flock."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "I see a poodle here.",
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "poodle",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "That looks like a pachyderm to me.",
+    "tokens": [
+      "That",
+      "looks",
+      "like",
+      "a",
+      "pachyderm",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "The kitty in this photo is interesting.",
+    "tokens": [
+      "The",
+      "kitty",
+      "in",
+      "this",
+      "photo",
+      "is",
+      "interesting."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "I'm almost certain this is a chick.",
+    "tokens": [
+      "I'm",
+      "almost",
+      "certain",
+      "this",
+      "is",
+      "a",
+      "chick."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "This image contains a horses.",
+    "tokens": [
+      "This",
+      "image",
+      "contains",
+      "a",
+      "horses."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "I'm almost certain this is a lamb.",
+    "tokens": [
+      "I'm",
+      "almost",
+      "certain",
+      "this",
+      "is",
+      "a",
+      "lamb."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "I see a hound here.",
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "hound",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I believe that is a thoroughbred.",
+    "tokens": [
+      "I",
+      "believe",
+      "that",
+      "is",
+      "a",
+      "thoroughbred."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Might this be a stallion?",
+    "tokens": [
+      "Might",
+      "this",
+      "be",
+      "a",
+      "stallion?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Could that be a cat in the image?",
+    "tokens": [
+      "Could",
+      "that",
+      "be",
+      "a",
+      "cat",
+      "in",
+      "the",
+      "image?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "There's a lambs in this photo.",
+    "tokens": [
+      "There's",
+      "a",
+      "lambs",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "A cow is clearly shown here.",
+    "tokens": [
+      "A",
+      "cow",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "This is clearly a cows.",
+    "tokens": [
+      "This",
+      "is",
+      "clearly",
+      "a",
+      "cows."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "It looks like there's a flock here.",
+    "tokens": [
+      "It",
+      "looks",
+      "like",
+      "there's",
+      "a",
+      "flock",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "That's definitely a ewe.",
+    "tokens": [
+      "That's",
+      "definitely",
+      "a",
+      "ewe."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "Is this a moth?",
+    "tokens": [
+      "Is",
+      "this",
+      "a",
+      "moth?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "There is a butterflies in the image.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "butterflies",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "I see a dog here.",
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "dog",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "A thoroughbred is clearly shown here.",
+    "tokens": [
+      "A",
+      "thoroughbred",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "A ram is standing in the picture.",
+    "tokens": [
+      "A",
+      "ram",
+      "is",
+      "standing",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "That's definitely a puppies.",
+    "tokens": [
+      "That's",
+      "definitely",
+      "a",
+      "puppies."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Might this be a feline?",
+    "tokens": [
+      "Might",
+      "this",
+      "be",
+      "a",
+      "feline?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "A chihuahua is clearly shown here.",
+    "tokens": [
+      "A",
+      "chihuahua",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The image shows a chickens.",
+    "tokens": [
+      "The",
+      "image",
+      "shows",
+      "a",
+      "chickens."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "The image shows a pony.",
+    "tokens": [
+      "The",
+      "image",
+      "shows",
+      "a",
+      "pony."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Looks like a labrador to me.",
+    "tokens": [
+      "Looks",
+      "like",
+      "a",
+      "labrador",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Could this be a butterfly?",
+    "tokens": [
+      "Could",
+      "this",
+      "be",
+      "a",
+      "butterfly?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "The photo contains a rooster.",
+    "tokens": [
+      "The",
+      "photo",
+      "contains",
+      "a",
+      "rooster."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "There appears to be a thoroughbred in this image.",
+    "tokens": [
+      "There",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "thoroughbred",
+      "in",
+      "this",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "The animal in the photo is a squirrel.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "squirrel."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "The animal in the picture is a cow.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "is",
+      "a",
+      "cow."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "This is clearly a mare.",
+    "tokens": [
+      "This",
+      "is",
+      "clearly",
+      "a",
+      "mare."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Look at that thoroughbred.",
+    "tokens": [
+      "Look",
+      "at",
+      "that",
+      "thoroughbred."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Might this be a hen?",
+    "tokens": [
+      "Might",
+      "this",
+      "be",
+      "a",
+      "hen?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "There seems to be a golden retriever in this picture.",
+    "tokens": [
+      "There",
+      "seems",
+      "to",
+      "be",
+      "a",
+      "golden",
+      "retriever",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Check out this puppy!",
+    "tokens": [
+      "Check",
+      "out",
+      "this",
+      "puppy!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Might this be a ox?",
+    "tokens": [
+      "Might",
+      "this",
+      "be",
+      "a",
+      "ox?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "That looks like a chickens.",
+    "tokens": [
+      "That",
+      "looks",
+      "like",
+      "a",
+      "chickens."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "I believe that is a elephant.",
+    "tokens": [
+      "I",
+      "believe",
+      "that",
+      "is",
+      "a",
+      "elephant."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "I see a tabby in the image.",
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "tabby",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "A bovine is sitting in the photo.",
+    "tokens": [
+      "A",
+      "bovine",
+      "is",
+      "sitting",
+      "in",
+      "the",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "There is a puppy in the image.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "puppy",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "That is a horses.",
+    "tokens": [
+      "That",
+      "is",
+      "a",
+      "horses."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "This is clearly a squirrels.",
+    "tokens": [
+      "This",
+      "is",
+      "clearly",
+      "a",
+      "squirrels."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "That animal looks like a lambs.",
+    "tokens": [
+      "That",
+      "animal",
+      "looks",
+      "like",
+      "a",
+      "lambs."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "That's definitely a equine.",
+    "tokens": [
+      "That's",
+      "definitely",
+      "a",
+      "equine."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "This is a butterfly.",
+    "tokens": [
+      "This",
+      "is",
+      "a",
+      "butterfly."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "There appears to be a poultry in this image.",
+    "tokens": [
+      "There",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "poultry",
+      "in",
+      "this",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "I have a mare at home and this looks similar.",
+    "tokens": [
+      "I",
+      "have",
+      "a",
+      "mare",
+      "at",
+      "home",
+      "and",
+      "this",
+      "looks",
+      "similar."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Could that be a siamese in the image?",
+    "tokens": [
+      "Could",
+      "that",
+      "be",
+      "a",
+      "siamese",
+      "in",
+      "the",
+      "image?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "I'm pretty sure that's a bull.",
+    "tokens": [
+      "I'm",
+      "pretty",
+      "sure",
+      "that's",
+      "a",
+      "bull."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "Oh wow, a tusker!",
+    "tokens": [
+      "Oh",
+      "wow,",
+      "a",
+      "tusker!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "Is this a siamese?",
+    "tokens": [
+      "Is",
+      "this",
+      "a",
+      "siamese?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "There is a horses in the picture.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "horses",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "This image contains a equine.",
+    "tokens": [
+      "This",
+      "image",
+      "contains",
+      "a",
+      "equine."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "This picture shows a cat.",
+    "tokens": [
+      "This",
+      "picture",
+      "shows",
+      "a",
+      "cat."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "This is clearly a lamb.",
+    "tokens": [
+      "This",
+      "is",
+      "clearly",
+      "a",
+      "lamb."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "What a beautiful dogs!",
+    "tokens": [
+      "What",
+      "a",
+      "beautiful",
+      "dogs!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The animal in the photo is a kitten.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "kitten."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "This might be a kitten.",
+    "tokens": [
+      "This",
+      "might",
+      "be",
+      "a",
+      "kitten."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "You can see a kitty in this photo.",
+    "tokens": [
+      "You",
+      "can",
+      "see",
+      "a",
+      "kitty",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "I'm almost certain this is a mare.",
+    "tokens": [
+      "I'm",
+      "almost",
+      "certain",
+      "this",
+      "is",
+      "a",
+      "mare."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "My friend has a spiders and this looks just like it.",
+    "tokens": [
+      "My",
+      "friend",
+      "has",
+      "a",
+      "spiders",
+      "and",
+      "this",
+      "looks",
+      "just",
+      "like",
+      "it."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "It seems like a cat to me.",
+    "tokens": [
+      "It",
+      "seems",
+      "like",
+      "a",
+      "cat",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "This is clearly a kitten.",
+    "tokens": [
+      "This",
+      "is",
+      "clearly",
+      "a",
+      "kitten."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "Could that be a arachnid in the image?",
+    "tokens": [
+      "Could",
+      "that",
+      "be",
+      "a",
+      "arachnid",
+      "in",
+      "the",
+      "image?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "Oh look, a puppy.",
+    "tokens": [
+      "Oh",
+      "look,",
+      "a",
+      "puppy."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The foal looks healthy.",
+    "tokens": [
+      "The",
+      "foal",
+      "looks",
+      "healthy."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "A golden retriever is clearly shown here.",
+    "tokens": [
+      "A",
+      "golden",
+      "retriever",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I have a pachyderm at home and this looks similar.",
+    "tokens": [
+      "I",
+      "have",
+      "a",
+      "pachyderm",
+      "at",
+      "home",
+      "and",
+      "this",
+      "looks",
+      "similar."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "This might be a husky.",
+    "tokens": [
+      "This",
+      "might",
+      "be",
+      "a",
+      "husky."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Oh wow, a elephant!",
+    "tokens": [
+      "Oh",
+      "wow,",
+      "a",
+      "elephant!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "This image contains a feline.",
+    "tokens": [
+      "This",
+      "image",
+      "contains",
+      "a",
+      "feline."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "Look at this cow!",
+    "tokens": [
+      "Look",
+      "at",
+      "this",
+      "cow!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "That animal looks like a ox.",
+    "tokens": [
+      "That",
+      "animal",
+      "looks",
+      "like",
+      "a",
+      "ox."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "I see a mustang here.",
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "mustang",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "That is a calf.",
+    "tokens": [
+      "That",
+      "is",
+      "a",
+      "calf."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "The animal in the picture is a horses.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "is",
+      "a",
+      "horses."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Look at this amazing shot.",
+    "tokens": [
+      "Look",
+      "at",
+      "this",
+      "amazing",
+      "shot."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": null
+  },
+  {
+    "sentence": "I see a chihuahua here.",
+    "tokens": [
+      "I",
+      "see",
+      "a",
+      "chihuahua",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Oh wow, a dogs!",
+    "tokens": [
+      "Oh",
+      "wow,",
+      "a",
+      "dogs!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "This image contains a mustang.",
+    "tokens": [
+      "This",
+      "image",
+      "contains",
+      "a",
+      "mustang."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "The beagle in this photo is interesting.",
+    "tokens": [
+      "The",
+      "beagle",
+      "in",
+      "this",
+      "photo",
+      "is",
+      "interesting."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "A husky is visible here.",
+    "tokens": [
+      "A",
+      "husky",
+      "is",
+      "visible",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The animal in the photo is a kittens.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "kittens."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "The animal in the photo is a husky.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "husky."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Oh wow, a cows!",
+    "tokens": [
+      "Oh",
+      "wow,",
+      "a",
+      "cows!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "Could this be a chick?",
+    "tokens": [
+      "Could",
+      "this",
+      "be",
+      "a",
+      "chick?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "A squirrel is clearly shown here.",
+    "tokens": [
+      "A",
+      "squirrel",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "The caterpillar in this photo is interesting.",
+    "tokens": [
+      "The",
+      "caterpillar",
+      "in",
+      "this",
+      "photo",
+      "is",
+      "interesting."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "I can see a calf in this picture.",
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "calf",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "A mare is sitting in the photo.",
+    "tokens": [
+      "A",
+      "mare",
+      "is",
+      "sitting",
+      "in",
+      "the",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "I think that is a golden retriever.",
+    "tokens": [
+      "I",
+      "think",
+      "that",
+      "is",
+      "a",
+      "golden",
+      "retriever."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Look at that lamb.",
+    "tokens": [
+      "Look",
+      "at",
+      "that",
+      "lamb."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "This is a feline.",
+    "tokens": [
+      "This",
+      "is",
+      "a",
+      "feline."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "A lambs is visible here.",
+    "tokens": [
+      "A",
+      "lambs",
+      "is",
+      "visible",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "Is that a cats in the picture?",
+    "tokens": [
+      "Is",
+      "that",
+      "a",
+      "cats",
+      "in",
+      "the",
+      "picture?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "The image shows a stallion.",
+    "tokens": [
+      "The",
+      "image",
+      "shows",
+      "a",
+      "stallion."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "There appears to be a puppy in this image.",
+    "tokens": [
+      "There",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "puppy",
+      "in",
+      "this",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "My friend has a stallion and this looks just like it.",
+    "tokens": [
+      "My",
+      "friend",
+      "has",
+      "a",
+      "stallion",
+      "and",
+      "this",
+      "looks",
+      "just",
+      "like",
+      "it."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "I believe that is a kitty.",
+    "tokens": [
+      "I",
+      "believe",
+      "that",
+      "is",
+      "a",
+      "kitty."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "I can see a puppies in this picture.",
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "puppies",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "You can see a poodle in this photo.",
+    "tokens": [
+      "You",
+      "can",
+      "see",
+      "a",
+      "poodle",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Do you think that is a thoroughbred?",
+    "tokens": [
+      "Do",
+      "you",
+      "think",
+      "that",
+      "is",
+      "a",
+      "thoroughbred?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Oh look, a bulldog.",
+    "tokens": [
+      "Oh",
+      "look,",
+      "a",
+      "bulldog."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Could that be a caterpillar in the image?",
+    "tokens": [
+      "Could",
+      "that",
+      "be",
+      "a",
+      "caterpillar",
+      "in",
+      "the",
+      "image?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "It seems like a chickens to me.",
+    "tokens": [
+      "It",
+      "seems",
+      "like",
+      "a",
+      "chickens",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "There is a foal in the picture.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "foal",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Might this be a puppy?",
+    "tokens": [
+      "Might",
+      "this",
+      "be",
+      "a",
+      "puppy?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "A moth is clearly shown here.",
+    "tokens": [
+      "A",
+      "moth",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "A bulldog is clearly shown here.",
+    "tokens": [
+      "A",
+      "bulldog",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I believe that is a ewe.",
+    "tokens": [
+      "I",
+      "believe",
+      "that",
+      "is",
+      "a",
+      "ewe."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "This picture shows a squirrels.",
+    "tokens": [
+      "This",
+      "picture",
+      "shows",
+      "a",
+      "squirrels."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "This image contains a elephant.",
+    "tokens": [
+      "This",
+      "image",
+      "contains",
+      "a",
+      "elephant."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "That animal looks like a dog.",
+    "tokens": [
+      "That",
+      "animal",
+      "looks",
+      "like",
+      "a",
+      "dog."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "There is a chicken in the image.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "chicken",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "This is clearly a thoroughbred.",
+    "tokens": [
+      "This",
+      "is",
+      "clearly",
+      "a",
+      "thoroughbred."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "It looks like there's a ram here.",
+    "tokens": [
+      "It",
+      "looks",
+      "like",
+      "there's",
+      "a",
+      "ram",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "The photo contains a caterpillar.",
+    "tokens": [
+      "The",
+      "photo",
+      "contains",
+      "a",
+      "caterpillar."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "The animal in the photo is a spider.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "spider."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "That is a cows.",
+    "tokens": [
+      "That",
+      "is",
+      "a",
+      "cows."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "The animal in the photo is a elephant.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "elephant."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "This image contains a tabby.",
+    "tokens": [
+      "This",
+      "image",
+      "contains",
+      "a",
+      "tabby."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "It seems like a poultry to me.",
+    "tokens": [
+      "It",
+      "seems",
+      "like",
+      "a",
+      "poultry",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "I'm pretty sure that's a poodle.",
+    "tokens": [
+      "I'm",
+      "pretty",
+      "sure",
+      "that's",
+      "a",
+      "poodle."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Could this be a bull?",
+    "tokens": [
+      "Could",
+      "this",
+      "be",
+      "a",
+      "bull?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "Could this be a horses?",
+    "tokens": [
+      "Could",
+      "this",
+      "be",
+      "a",
+      "horses?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "This is a dog.",
+    "tokens": [
+      "This",
+      "is",
+      "a",
+      "dog."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "That is a puppies.",
+    "tokens": [
+      "That",
+      "is",
+      "a",
+      "puppies."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "That's definitely a siamese.",
+    "tokens": [
+      "That's",
+      "definitely",
+      "a",
+      "siamese."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "It seems like a squirrels to me.",
+    "tokens": [
+      "It",
+      "seems",
+      "like",
+      "a",
+      "squirrels",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "Could this be a poultry?",
+    "tokens": [
+      "Could",
+      "this",
+      "be",
+      "a",
+      "poultry?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "Look at this german shepherd!",
+    "tokens": [
+      "Look",
+      "at",
+      "this",
+      "german",
+      "shepherd!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "What a beautiful puppies!",
+    "tokens": [
+      "What",
+      "a",
+      "beautiful",
+      "puppies!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Is that a feline in the picture?",
+    "tokens": [
+      "Is",
+      "that",
+      "a",
+      "feline",
+      "in",
+      "the",
+      "picture?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "A elephant is visible in this picture.",
+    "tokens": [
+      "A",
+      "elephant",
+      "is",
+      "visible",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "The black widow looks healthy.",
+    "tokens": [
+      "The",
+      "black",
+      "widow",
+      "looks",
+      "healthy."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "The animal in the photo is a tabby.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "tabby."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "Is this a poultry?",
+    "tokens": [
+      "Is",
+      "this",
+      "a",
+      "poultry?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "This is clearly a ewe.",
+    "tokens": [
+      "This",
+      "is",
+      "clearly",
+      "a",
+      "ewe."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "A cat is visible here.",
+    "tokens": [
+      "A",
+      "cat",
+      "is",
+      "visible",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "I can see a mare here.",
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "mare",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "That looks like a flock to me.",
+    "tokens": [
+      "That",
+      "looks",
+      "like",
+      "a",
+      "flock",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "Could this be a cats?",
+    "tokens": [
+      "Could",
+      "this",
+      "be",
+      "a",
+      "cats?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "That's definitely a rooster.",
+    "tokens": [
+      "That's",
+      "definitely",
+      "a",
+      "rooster."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "It looks like there's a siamese here.",
+    "tokens": [
+      "It",
+      "looks",
+      "like",
+      "there's",
+      "a",
+      "siamese",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "There appears to be a tabby in this image.",
+    "tokens": [
+      "There",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "tabby",
+      "in",
+      "this",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "Is this a pachyderm?",
+    "tokens": [
+      "Is",
+      "this",
+      "a",
+      "pachyderm?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "The elephant looks healthy.",
+    "tokens": [
+      "The",
+      "elephant",
+      "looks",
+      "healthy."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "The animal in the picture is a cows.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "is",
+      "a",
+      "cows."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "Oh look, a golden retriever.",
+    "tokens": [
+      "Oh",
+      "look,",
+      "a",
+      "golden",
+      "retriever."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "Do you think that is a labrador?",
+    "tokens": [
+      "Do",
+      "you",
+      "think",
+      "that",
+      "is",
+      "a",
+      "labrador?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The image shows a pachyderm.",
+    "tokens": [
+      "The",
+      "image",
+      "shows",
+      "a",
+      "pachyderm."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "Oh look, a poodle.",
+    "tokens": [
+      "Oh",
+      "look,",
+      "a",
+      "poodle."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I'm almost certain this is a golden retriever.",
+    "tokens": [
+      "I'm",
+      "almost",
+      "certain",
+      "this",
+      "is",
+      "a",
+      "golden",
+      "retriever."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I think that is a lamb.",
+    "tokens": [
+      "I",
+      "think",
+      "that",
+      "is",
+      "a",
+      "lamb."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "A persian is clearly shown here.",
+    "tokens": [
+      "A",
+      "persian",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "I'm pretty sure that's a caterpillar.",
+    "tokens": [
+      "I'm",
+      "pretty",
+      "sure",
+      "that's",
+      "a",
+      "caterpillar."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "A lamb is standing in the picture.",
+    "tokens": [
+      "A",
+      "lamb",
+      "is",
+      "standing",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "I'm almost certain this is a dog.",
+    "tokens": [
+      "I'm",
+      "almost",
+      "certain",
+      "this",
+      "is",
+      "a",
+      "dog."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I have a butterflies at home and this looks similar.",
+    "tokens": [
+      "I",
+      "have",
+      "a",
+      "butterflies",
+      "at",
+      "home",
+      "and",
+      "this",
+      "looks",
+      "similar."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "Oh look, a sheep.",
+    "tokens": [
+      "Oh",
+      "look,",
+      "a",
+      "sheep."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "This image contains a pachyderm.",
+    "tokens": [
+      "This",
+      "image",
+      "contains",
+      "a",
+      "pachyderm."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "What a lovely rooster.",
+    "tokens": [
+      "What",
+      "a",
+      "lovely",
+      "rooster."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "This picture shows a kitty.",
+    "tokens": [
+      "This",
+      "picture",
+      "shows",
+      "a",
+      "kitty."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "Looks like a ram to me.",
+    "tokens": [
+      "Looks",
+      "like",
+      "a",
+      "ram",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "What a lovely moth.",
+    "tokens": [
+      "What",
+      "a",
+      "lovely",
+      "moth."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "Do you think that is a chipmunk?",
+    "tokens": [
+      "Do",
+      "you",
+      "think",
+      "that",
+      "is",
+      "a",
+      "chipmunk?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "I believe that is a husky.",
+    "tokens": [
+      "I",
+      "believe",
+      "that",
+      "is",
+      "a",
+      "husky."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "A siamese is standing in the picture.",
+    "tokens": [
+      "A",
+      "siamese",
+      "is",
+      "standing",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "There is a foal in the image.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "foal",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "A kittens is sitting in the photo.",
+    "tokens": [
+      "A",
+      "kittens",
+      "is",
+      "sitting",
+      "in",
+      "the",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "There is a hound in the image.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "hound",
+      "in",
+      "the",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I think that is a mare.",
+    "tokens": [
+      "I",
+      "think",
+      "that",
+      "is",
+      "a",
+      "mare."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "I have a poodle at home and this looks similar.",
+    "tokens": [
+      "I",
+      "have",
+      "a",
+      "poodle",
+      "at",
+      "home",
+      "and",
+      "this",
+      "looks",
+      "similar."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "What a beautiful squirrel!",
+    "tokens": [
+      "What",
+      "a",
+      "beautiful",
+      "squirrel!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "There is a butterfly in the picture.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "butterfly",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "It seems like a cats to me.",
+    "tokens": [
+      "It",
+      "seems",
+      "like",
+      "a",
+      "cats",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "You can see a moth in this photo.",
+    "tokens": [
+      "You",
+      "can",
+      "see",
+      "a",
+      "moth",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "Is that a hound in the picture?",
+    "tokens": [
+      "Is",
+      "that",
+      "a",
+      "hound",
+      "in",
+      "the",
+      "picture?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The animal in the photo is a golden retriever.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "golden",
+      "retriever."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "A chicken is visible in this picture.",
+    "tokens": [
+      "A",
+      "chicken",
+      "is",
+      "visible",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "Do you think that is a chick?",
+    "tokens": [
+      "Do",
+      "you",
+      "think",
+      "that",
+      "is",
+      "a",
+      "chick?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "I think that is a spiders.",
+    "tokens": [
+      "I",
+      "think",
+      "that",
+      "is",
+      "a",
+      "spiders."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "I have a dog at home and this looks similar.",
+    "tokens": [
+      "I",
+      "have",
+      "a",
+      "dog",
+      "at",
+      "home",
+      "and",
+      "this",
+      "looks",
+      "similar."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The animal in the photo is a hound.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "photo",
+      "is",
+      "a",
+      "hound."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The cows is clearly visible.",
+    "tokens": [
+      "The",
+      "cows",
+      "is",
+      "clearly",
+      "visible."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "Look at this ox!",
+    "tokens": [
+      "Look",
+      "at",
+      "this",
+      "ox!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "Do you think that is a spiders?",
+    "tokens": [
+      "Do",
+      "you",
+      "think",
+      "that",
+      "is",
+      "a",
+      "spiders?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "There seems to be a persian in this picture.",
+    "tokens": [
+      "There",
+      "seems",
+      "to",
+      "be",
+      "a",
+      "persian",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "A sheep appears in this photo.",
+    "tokens": [
+      "A",
+      "sheep",
+      "appears",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "That looks like a chipmunk to me.",
+    "tokens": [
+      "That",
+      "looks",
+      "like",
+      "a",
+      "chipmunk",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "squirrel"
+  },
+  {
+    "sentence": "I'm almost certain this is a poodle.",
+    "tokens": [
+      "I'm",
+      "almost",
+      "certain",
+      "this",
+      "is",
+      "a",
+      "poodle."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The pony in this photo is interesting.",
+    "tokens": [
+      "The",
+      "pony",
+      "in",
+      "this",
+      "photo",
+      "is",
+      "interesting."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "Could that be a tabby in the image?",
+    "tokens": [
+      "Could",
+      "that",
+      "be",
+      "a",
+      "tabby",
+      "in",
+      "the",
+      "image?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "Looks like a kittens to me.",
+    "tokens": [
+      "Looks",
+      "like",
+      "a",
+      "kittens",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "The kitty looks healthy.",
+    "tokens": [
+      "The",
+      "kitty",
+      "looks",
+      "healthy."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "Is this a flock?",
+    "tokens": [
+      "Is",
+      "this",
+      "a",
+      "flock?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "The lamb is clearly visible.",
+    "tokens": [
+      "The",
+      "lamb",
+      "is",
+      "clearly",
+      "visible."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "There seems to be a cat in this picture.",
+    "tokens": [
+      "There",
+      "seems",
+      "to",
+      "be",
+      "a",
+      "cat",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "I can see a tabby here.",
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "tabby",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "This picture shows a horse.",
+    "tokens": [
+      "This",
+      "picture",
+      "shows",
+      "a",
+      "horse."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "That's definitely a butterflies.",
+    "tokens": [
+      "That's",
+      "definitely",
+      "a",
+      "butterflies."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "The photo contains a chicken.",
+    "tokens": [
+      "The",
+      "photo",
+      "contains",
+      "a",
+      "chicken."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "Do you think that is a elephants?",
+    "tokens": [
+      "Do",
+      "you",
+      "think",
+      "that",
+      "is",
+      "a",
+      "elephants?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "elephant"
+  },
+  {
+    "sentence": "I can see a lamb here.",
+    "tokens": [
+      "I",
+      "can",
+      "see",
+      "a",
+      "lamb",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "My friend has a mustang and this looks just like it.",
+    "tokens": [
+      "My",
+      "friend",
+      "has",
+      "a",
+      "mustang",
+      "and",
+      "this",
+      "looks",
+      "just",
+      "like",
+      "it."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "The hound is clearly visible.",
+    "tokens": [
+      "The",
+      "hound",
+      "is",
+      "clearly",
+      "visible."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "The animal in the picture is a chick.",
+    "tokens": [
+      "The",
+      "animal",
+      "in",
+      "the",
+      "picture",
+      "is",
+      "a",
+      "chick."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "A puppy is clearly shown here.",
+    "tokens": [
+      "A",
+      "puppy",
+      "is",
+      "clearly",
+      "shown",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "That looks like a hen to me.",
+    "tokens": [
+      "That",
+      "looks",
+      "like",
+      "a",
+      "hen",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "The photo contains a chickens.",
+    "tokens": [
+      "The",
+      "photo",
+      "contains",
+      "a",
+      "chickens."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "There is a feline in the picture.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "feline",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "My friend has a chicken and this looks just like it.",
+    "tokens": [
+      "My",
+      "friend",
+      "has",
+      "a",
+      "chicken",
+      "and",
+      "this",
+      "looks",
+      "just",
+      "like",
+      "it."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "Look at that labrador.",
+    "tokens": [
+      "Look",
+      "at",
+      "that",
+      "labrador."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I think that is a equine.",
+    "tokens": [
+      "I",
+      "think",
+      "that",
+      "is",
+      "a",
+      "equine."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "horse"
+  },
+  {
+    "sentence": "A kittens appears in this photo.",
+    "tokens": [
+      "A",
+      "kittens",
+      "appears",
+      "in",
+      "this",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "Is this a lambs?",
+    "tokens": [
+      "Is",
+      "this",
+      "a",
+      "lambs?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "sheep"
+  },
+  {
+    "sentence": "The canine looks healthy.",
+    "tokens": [
+      "The",
+      "canine",
+      "looks",
+      "healthy."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I think that is a hen.",
+    "tokens": [
+      "I",
+      "think",
+      "that",
+      "is",
+      "a",
+      "hen."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "There is a hound in the picture.",
+    "tokens": [
+      "There",
+      "is",
+      "a",
+      "hound",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "It seems like a chihuahua to me.",
+    "tokens": [
+      "It",
+      "seems",
+      "like",
+      "a",
+      "chihuahua",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "A hound is sitting in the photo.",
+    "tokens": [
+      "A",
+      "hound",
+      "is",
+      "sitting",
+      "in",
+      "the",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "This image contains a butterfly.",
+    "tokens": [
+      "This",
+      "image",
+      "contains",
+      "a",
+      "butterfly."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "This image contains a canine.",
+    "tokens": [
+      "This",
+      "image",
+      "contains",
+      "a",
+      "canine."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "I think this is a husky.",
+    "tokens": [
+      "I",
+      "think",
+      "this",
+      "is",
+      "a",
+      "husky."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "A butterflies is standing in the picture.",
+    "tokens": [
+      "A",
+      "butterflies",
+      "is",
+      "standing",
+      "in",
+      "the",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "Look at that black widow.",
+    "tokens": [
+      "Look",
+      "at",
+      "that",
+      "black",
+      "widow."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "I-ANIMAL"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "A arachnid is sitting in the photo.",
+    "tokens": [
+      "A",
+      "arachnid",
+      "is",
+      "sitting",
+      "in",
+      "the",
+      "photo."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "spider"
+  },
+  {
+    "sentence": "What a beautiful chickens!",
+    "tokens": [
+      "What",
+      "a",
+      "beautiful",
+      "chickens!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "My friend has a puppies and this looks just like it.",
+    "tokens": [
+      "My",
+      "friend",
+      "has",
+      "a",
+      "puppies",
+      "and",
+      "this",
+      "looks",
+      "just",
+      "like",
+      "it."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "A canine is visible in this picture.",
+    "tokens": [
+      "A",
+      "canine",
+      "is",
+      "visible",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "There seems to be a kitty in this picture.",
+    "tokens": [
+      "There",
+      "seems",
+      "to",
+      "be",
+      "a",
+      "kitty",
+      "in",
+      "this",
+      "picture."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "That animal looks like a cows.",
+    "tokens": [
+      "That",
+      "animal",
+      "looks",
+      "like",
+      "a",
+      "cows."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "Looks like a canine to me.",
+    "tokens": [
+      "Looks",
+      "like",
+      "a",
+      "canine",
+      "to",
+      "me."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "This might be a moth.",
+    "tokens": [
+      "This",
+      "might",
+      "be",
+      "a",
+      "moth."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "butterfly"
+  },
+  {
+    "sentence": "Oh wow, a cow!",
+    "tokens": [
+      "Oh",
+      "wow,",
+      "a",
+      "cow!"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cow"
+  },
+  {
+    "sentence": "Is that a chickens in the picture?",
+    "tokens": [
+      "Is",
+      "that",
+      "a",
+      "chickens",
+      "in",
+      "the",
+      "picture?"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "chicken"
+  },
+  {
+    "sentence": "This is clearly a canine.",
+    "tokens": [
+      "This",
+      "is",
+      "clearly",
+      "a",
+      "canine."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "dog"
+  },
+  {
+    "sentence": "There appears to be a cats in this image.",
+    "tokens": [
+      "There",
+      "appears",
+      "to",
+      "be",
+      "a",
+      "cats",
+      "in",
+      "this",
+      "image."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "That animal looks like a persian.",
+    "tokens": [
+      "That",
+      "animal",
+      "looks",
+      "like",
+      "a",
+      "persian."
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ANIMAL"
+    ],
+    "canonical": "cat"
+  },
+  {
+    "sentence": "A chihuahua is visible here.",
+    "tokens": [
+      "A",
+      "chihuahua",
+      "is",
+      "visible",
+      "here."
+    ],
+    "labels": [
+      "O",
+      "B-ANIMAL",
+      "O",
+      "O",
+      "O"
+    ],
+    "canonical": "dog"
+  }
+]

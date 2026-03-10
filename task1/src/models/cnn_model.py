@@ -10,7 +10,7 @@ from ..interface import MnistClassifierInterface
 class CNNArchitecture(nn.Module):
     def __init__(self):
         super(CNNArchitecture, self).__init__()
-        self.conv_layers = nn.Sequential(
+        self.conv_layers: nn.Sequential = nn.Sequential(
             nn.Conv2d(1, 32, kernel_size=3, padding=1),
             nn.ReLU(),
             nn.MaxPool2d(2, 2),
@@ -18,7 +18,7 @@ class CNNArchitecture(nn.Module):
             nn.ReLU(),
             nn.MaxPool2d(2, 2),
         )
-        self.fc_layers = nn.Sequential(
+        self.fc_layers: nn.Sequential = nn.Sequential(
             nn.Linear(64 * 7 * 7, 128),
             nn.ReLU(),
             nn.Dropout(0.2),
@@ -38,14 +38,14 @@ class CNN(MnistClassifierInterface):
             batch_size: int = 32,
             learning_rate: float = 0.001,
     ):
-        self.epochs = epochs
-        self.batch_size = batch_size
-        self.learning_rate = learning_rate
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.epochs: int = epochs
+        self.batch_size: int = batch_size
+        self.learning_rate: float = learning_rate
+        self.device: torch.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-        self.model = CNNArchitecture().to(self.device)
-        self.criterion = nn.CrossEntropyLoss()
-        self.optimizer = optim.Adam(self.model.parameters(), lr=self.learning_rate)
+        self.model: CNNArchitecture = CNNArchitecture().to(self.device)
+        self.criterion: nn.CrossEntropyLoss = nn.CrossEntropyLoss()
+        self.optimizer: optim.Adam = optim.Adam(self.model.parameters(), lr=self.learning_rate)
 
     def _prepare_data(self, x, y=None):
         if hasattr(x, 'values'):
