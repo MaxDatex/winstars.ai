@@ -5,20 +5,48 @@ from pathlib import Path
 
 ROOT: Path = Path(__file__).resolve().parent.parent
 PROCESSED: Path = ROOT / "data" / "processed"
-SPLITS : Path = ROOT / "data" / "splits"
+SPLITS: Path = ROOT / "data" / "splits"
 PROCESSED.mkdir(parents=True, exist_ok=True)
 SPLITS.mkdir(parents=True, exist_ok=True)
 
 ANIMAL_VARIANTS: dict[str, list[str]] = {
     "dog": [
-        "dog", "dogs", "puppy", "puppies", "canine", "hound", "german shepherd", "golden retriever",
-        "labrador", "poodle", "bulldog", "husky", "beagle", "chihuahua"
+        "dog",
+        "dogs",
+        "puppy",
+        "puppies",
+        "canine",
+        "hound",
+        "german shepherd",
+        "golden retriever",
+        "labrador",
+        "poodle",
+        "bulldog",
+        "husky",
+        "beagle",
+        "chihuahua",
     ],
     "cat": [
-        "cat", "cats", "kitten", "kittens", "feline", "tabby", "siamese", "persian", "kitty"
+        "cat",
+        "cats",
+        "kitten",
+        "kittens",
+        "feline",
+        "tabby",
+        "siamese",
+        "persian",
+        "kitty",
     ],
     "horse": [
-        "horse", "horses", "mare", "stallion", "foal", "pony", "equine", "mustang", "thoroughbred"
+        "horse",
+        "horses",
+        "mare",
+        "stallion",
+        "foal",
+        "pony",
+        "equine",
+        "mustang",
+        "thoroughbred",
     ],
     "spider": ["spider", "spiders", "arachnid", "tarantula", "black widow"],
     "butterfly": ["butterfly", "butterflies", "moth", "caterpillar"],
@@ -103,6 +131,7 @@ NEGATIVE_TEMPLATES: list[str] = [
     "I really like this photo.",
 ]
 
+
 def bio_tag(sentence: str, animal: str) -> tuple[list[str], list[str]]:
     """
     Tokenize sentence by whitespace;
@@ -115,7 +144,9 @@ def bio_tag(sentence: str, animal: str) -> tuple[list[str], list[str]]:
     n: int = len(animal_tokens)
 
     for i in range(len(tokens) - n + 1):
-        window: list[str] = [t.lower().strip("?!.,;:") for t in tokens[i:i + n]] # window with size of animal name
+        window: list[str] = [
+            t.lower().strip("?!.,;:") for t in tokens[i : i + n]
+        ]  # window with size of animal name
         if window == animal_tokens:
             # mark beginning of the animal name
             labels[i] = "B-ANIMAL"
@@ -138,22 +169,26 @@ def generate_dataset() -> list[dict[str, None | str | list[str]]]:
                 tokens, labels = bio_tag(sentence, variant)
                 if "B-ANIMAL" not in labels:
                     print(f"No entity found | {sentence} | {variant}")
-                samples.append({
-                    "sentence": sentence,
-                    "tokens": tokens,
-                    "labels": labels,
-                    "canonical": canonical,
-                })
+                samples.append(
+                    {
+                        "sentence": sentence,
+                        "tokens": tokens,
+                        "labels": labels,
+                        "canonical": canonical,
+                    }
+                )
 
     for template in NEGATIVE_TEMPLATES:
         tokens: list[str] = template.split()
         labels: list[str] = ["O"] * len(tokens)
-        samples.append({
-            "sentence": template,
-            "tokens": tokens,
-            "labels": labels,
-            "canonical": None,
-        })
+        samples.append(
+            {
+                "sentence": template,
+                "tokens": tokens,
+                "labels": labels,
+                "canonical": None,
+            }
+        )
 
     random.seed(42)
     random.shuffle(samples)
@@ -191,7 +226,9 @@ def main() -> None:
     samples = generate_dataset()
     print(f"Total samples generated: {len(samples)}")
 
-    b_count: int = sum(1 for s in samples for label in s["labels"] if label == "B-ANIMAL")  # pyright: ignore[reportOptionalIterable]
+    b_count: int = sum(
+        1 for s in samples for label in s["labels"] if label == "B-ANIMAL"
+    )  # pyright: ignore[reportOptionalIterable]
     o_count: int = sum(1 for s in samples for label in s["labels"] if label == "O")  # pyright: ignore[reportOptionalIterable]
     print(f"B-ANIMAL tokens: {b_count}")
     print(f"O tokens: {o_count}")

@@ -13,7 +13,7 @@ from src.classifier.model import (
     load_trained_model,
 )
 
-ROOT: Path     = Path(__file__).resolve().parent.parent.parent
+ROOT: Path = Path(__file__).resolve().parent.parent.parent
 DATA_DIR: Path = ROOT / "data" / "raw" / "animals10"
 
 
@@ -34,7 +34,7 @@ def collect_predictions(
     model.to(device)
     model.eval()
 
-    all_true  = []
+    all_true = []
     all_preds = []
     all_confs = []
 
@@ -42,7 +42,7 @@ def collect_predictions(
         for images, labels in loader:
             images = images.to(device)
             logits = model(images)
-            probs  = torch.softmax(logits, dim=-1)
+            probs = torch.softmax(logits, dim=-1)
             confs, preds = probs.max(dim=-1)
 
             all_true.extend(labels.tolist())
@@ -79,8 +79,10 @@ def full_evaluation(
             class_fp[pred] += 1
             class_fn[true] += 1
 
-    print(f"\n  {'Class':<12} {'Precision':>10} {'Recall':>10} {'F1':>10} {'Support':>10}")
-    print(f"  {'─'*12} {'─'*10} {'─'*10} {'─'*10} {'─'*10}")
+    print(
+        f"\n  {'Class':<12} {'Precision':>10} {'Recall':>10} {'F1':>10} {'Support':>10}"
+    )
+    print(f"  {'─' * 12} {'─' * 10} {'─' * 10} {'─' * 10} {'─' * 10}")
 
     for idx, cls in enumerate(CLASSES):
         tp = class_tp[idx]
@@ -89,11 +91,16 @@ def full_evaluation(
 
         precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
         recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
-        f1 = (2 * precision * recall / (precision + recall)
-                     if (precision + recall) > 0 else 0.0)
+        f1 = (
+            2 * precision * recall / (precision + recall)
+            if (precision + recall) > 0
+            else 0.0
+        )
         support = tp + fn
 
-        print(f"  {cls:<12} {precision:>10.4f} {recall:>10.4f} {f1:>10.4f} {support:>10}")
+        print(
+            f"  {cls:<12} {precision:>10.4f} {recall:>10.4f} {f1:>10.4f} {support:>10}"
+        )
 
     return overall_acc
 
@@ -176,19 +183,23 @@ def error_analysis(
                     else:
                         img_path = "unknown"
 
-                    errors.append({
-                        "path":       img_path,
-                        "true":       IDX2CLASS[true],
-                        "predicted":  IDX2CLASS[pred],
-                        "confidence": conf,
-                    })
+                    errors.append(
+                        {
+                            "path": img_path,
+                            "true": IDX2CLASS[true],
+                            "predicted": IDX2CLASS[pred],
+                            "confidence": conf,
+                        }
+                    )
 
     errors.sort(key=lambda x: x["confidence"], reverse=True)
 
-    print(f"\nTop {min(max_errors, len(errors))} high-confidence errors "
-          f"(total errors: {len(errors)}):")
+    print(
+        f"\nTop {min(max_errors, len(errors))} high-confidence errors "
+        f"(total errors: {len(errors)}):"
+    )
     print(f"  {'True':<12} {'Predicted':<12} {'Confidence':>12}  Path")
-    print(f"  {'─'*12} {'─'*12} {'─'*12}  {'─'*40}")
+    print(f"  {'─' * 12} {'─' * 12} {'─' * 12}  {'─' * 40}")
 
     for err in errors[:max_errors]:
         print(
