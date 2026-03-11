@@ -180,7 +180,7 @@ def train(args=None):
     print(f"Device: {device}")
 
     print("\nLoading datasets...")
-    train_loader, val_loader, test_loader = get_dataloaders(data_dir, batch_size)
+    train_loader, val_loader, _ = get_dataloaders(data_dir, batch_size)
 
     model = get_model().to(device)
 
