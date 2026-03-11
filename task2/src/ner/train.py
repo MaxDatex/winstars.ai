@@ -1,3 +1,4 @@
+import argparse
 import json
 import numpy as np
 from pathlib import Path
@@ -203,8 +204,6 @@ def train(args=None):
 
 
 def parse_args():
-    import argparse
-
     parser = argparse.ArgumentParser(description="Fine-tune DistilBERT for animal NER")
 
     parser.add_argument(
