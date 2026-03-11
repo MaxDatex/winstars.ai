@@ -32,10 +32,12 @@ def load_split(name: str) -> Dataset:
     with open(path) as f:
         records = json.load(f)
 
-    return Dataset.from_dict({
-        "tokens": [record["tokens"] for record in records],
-        "labels": [record["labels"] for record in records],
-    })
+    return Dataset.from_dict(
+        {
+            "tokens": [record["tokens"] for record in records],
+            "labels": [record["labels"] for record in records],
+        }
+    )
 
 
 def tokenize_and_align(batch, tokenizer):
@@ -74,8 +76,8 @@ def tokenize_and_align(batch, tokenizer):
 
     for i, word_labels in enumerate(batch["labels"]):
         word_ids = tokenized.word_ids(batch_index=i)
-        previous_word_id: int|None = None
-        label_ids= []
+        previous_word_id: int | None = None
+        label_ids = []
 
         for word_id in word_ids:
             if word_id is None:
@@ -88,7 +90,7 @@ def tokenize_and_align(batch, tokenizer):
                 # continuation subword — ignore
                 label_ids.append(-100)
 
-            previous_word_id: int|None = word_id
+            previous_word_id: int | None = word_id
 
         aligned_labels.append(label_ids)
 
@@ -101,6 +103,7 @@ def make_compute_metrics(label_list):
     Returns a compute_metrics function for the Trainer.
     Uses seqeval for entity-level F1.
     """
+
     def compute_metrics(eval_preds):
         logits, label_ids = eval_preds
 
@@ -125,9 +128,9 @@ def make_compute_metrics(label_list):
             pred_labels.append(pred_seq_clean)
 
         return {
-            "f1":        f1_score(true_labels, pred_labels),
+            "f1": f1_score(true_labels, pred_labels),
             "precision": precision_score(true_labels, pred_labels),
-            "recall":    recall_score(true_labels, pred_labels),
+            "recall": recall_score(true_labels, pred_labels),
         }
 
     return compute_metrics
@@ -136,7 +139,7 @@ def make_compute_metrics(label_list):
 def train():
     print("Loading tokenizer and model...")
     tokenizer = get_tokenizer()
-    model     = get_model()
+    model = get_model()
 
     print("Loading datasets...")
     train_ds = load_split("train")
@@ -161,21 +164,17 @@ def train():
 
     training_args = TrainingArguments(
         output_dir=str(MODEL_DIR / "checkpoints"),
-
         num_train_epochs=5,
         learning_rate=3e-5,
         lr_scheduler_type="cosine",
         warmup_ratio=0.1,
-
         per_device_train_batch_size=32,
         per_device_eval_batch_size=64,
-
         eval_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
         metric_for_best_model="f1",
         greater_is_better=True,
-
         weight_decay=0.01,
         logging_steps=50,
         report_to="none",

@@ -25,7 +25,7 @@ def get_model() -> DistilBertForTokenClassification:
 
 
 def load_trained_model(
-        checkpoint_path: Path
+    checkpoint_path: Path,
 ) -> tuple[DistilBertForTokenClassification, DistilBertTokenizerFast]:
     tokenizer = DistilBertTokenizerFast.from_pretrained(checkpoint_path)
     model = DistilBertForTokenClassification.from_pretrained(checkpoint_path)
@@ -34,18 +34,15 @@ def load_trained_model(
 
 
 def predict(
-        text: str,
-        model: DistilBertForTokenClassification,
-        tokenizer: DistilBertTokenizerFast,
-        device: str = "cpu"
+    text: str,
+    model: DistilBertForTokenClassification,
+    tokenizer: DistilBertTokenizerFast,
+    device: str = "cpu",
 ) -> list[dict]:
     model.to(device)
 
     encoding = tokenizer(
-        text.split(),
-        is_split_into_words=True,
-        return_tensors="pt",
-        truncation=True
+        text.split(), is_split_into_words=True, return_tensors="pt", truncation=True
     )
 
     input_ids = encoding["input_ids"].to(device)
@@ -65,15 +62,17 @@ def predict(
 
     for token_idx, word_id in enumerate(word_ids):
         if word_id is None:
-            continue # skip [CLS] / [SEP]
+            continue  # skip [CLS] / [SEP]
         if word_id in seen_word_ids:
-            continue # skip non-first subwords
+            continue  # skip non-first subwords
         seen_word_ids.add(word_id)
 
-        word_predictions.append({
-            "word": words[word_id],
-            "label": ID2LABEL[label_ids[token_idx]],
-        })
+        word_predictions.append(
+            {
+                "word": words[word_id],
+                "label": ID2LABEL[label_ids[token_idx]],
+            }
+        )
 
     return word_predictions
 

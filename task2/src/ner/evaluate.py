@@ -12,9 +12,9 @@ from .model import (
 )
 from ..pipeline.normalization import AnimalNormalizer
 
-ROOT: Path       = Path(__file__).resolve().parent.parent.parent
+ROOT: Path = Path(__file__).resolve().parent.parent.parent
 SPLITS_DIR: Path = ROOT / "data" / "splits"
-MODEL_DIR: Path  = ROOT / "models" / "ner"
+MODEL_DIR: Path = ROOT / "models" / "ner"
 
 
 def load_split(name: str) -> list[dict]:
@@ -36,7 +36,7 @@ def get_token_level_preds(
 
     for record in records:
         sentence = record["sentence"]
-        gold = record["labels"]        # original string BIO labels
+        gold = record["labels"]  # original string BIO labels
 
         preds = predict(sentence, model, tokenizer)
         pred_seq = [p["label"] for p in preds]
@@ -92,13 +92,13 @@ def error_analysis(
         gold = record["labels"]
         preds = predict(sentence, model, tokenizer)
         pred_seq = [p["label"] for p in preds]
-        words = [p["word"]  for p in preds]
+        words = [p["word"] for p in preds]
 
         gold = gold
         pred_seq = pred_seq
 
         if gold == pred_seq:
-            continue    # correct — skip
+            continue  # correct — skip
 
         error_count += 1
         print(f"Sentence : {sentence}")
@@ -120,14 +120,14 @@ def entity_confusion_matrix(
     Shows a matrix: rows = true canonical, cols = predicted canonical.
     """
     normalizer = AnimalNormalizer()
-    records    = load_split(split)
+    records = load_split(split)
 
     # confusion[true][pred] = count
-    confusion  = defaultdict(lambda: defaultdict(int))
+    confusion = defaultdict(lambda: defaultdict(int))
 
     for record in records:
         sentence = record["sentence"]
-        true_canonical = record["canonical"]    # ground truth class
+        true_canonical = record["canonical"]  # ground truth class
 
         preds = predict(sentence, model, tokenizer)
         entities = extract_animal_entities(preds)
@@ -136,10 +136,12 @@ def entity_confusion_matrix(
         confusion[str(true_canonical)][str(pred_canonical)] += 1
 
     # collect all canonical labels that appear
-    all_labels = sorted(set(
-        list(confusion.keys()) +
-        [p for preds in confusion.values() for p in preds.keys()]
-    ))
+    all_labels = sorted(
+        set(
+            list(confusion.keys())
+            + [p for preds in confusion.values() for p in preds.keys()]
+        )
+    )
 
     # print matrix
     col_w = 12
@@ -154,7 +156,13 @@ def entity_confusion_matrix(
         print(f"  {true_label:>{col_w}}", end="")
         for pred_label in all_labels:
             count = confusion[true_label][pred_label]
-            marker = f"{count:>{col_w}}" if count == 0 else f"\033[91m{count:>{col_w}}\033[0m" if true_label != pred_label else f"\033[92m{count:>{col_w}}\033[0m"
+            marker = (
+                f"{count:>{col_w}}"
+                if count == 0
+                else f"\033[91m{count:>{col_w}}\033[0m"
+                if true_label != pred_label
+                else f"\033[92m{count:>{col_w}}\033[0m"
+            )
             print(f"  {marker}", end="")
         print()
 

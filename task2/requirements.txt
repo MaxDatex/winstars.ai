@@ -4,3 +4,4 @@ torch
 datasets
 seqeval
 accelerate
+torchvision
