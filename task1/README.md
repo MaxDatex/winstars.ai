@@ -34,7 +34,7 @@ The core of this project is the MnistClassifierInterface. By enforcing this inte
 Clone the Repository
 ```bash
 git clone https://github.com/MaxDatex/winstars.ai.git
-cd mnist_project
+cd winstars.ai/task1
 ```
 Create a Virtual Environment
 ```bash
