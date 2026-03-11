@@ -5,3 +5,8 @@ datasets
 seqeval
 accelerate
 torchvision
+jupyter
+matplotlib
+seaborn
+numpy
+Pillow
