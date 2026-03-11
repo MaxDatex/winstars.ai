@@ -136,7 +136,7 @@ def make_compute_metrics(label_list):
     return compute_metrics
 
 
-def train():
+def train(args=None):
     print("Loading tokenizer and model...")
     tokenizer = get_tokenizer()
     model = get_model()
@@ -162,14 +162,16 @@ def train():
     # DataCollator pads each batch to the longest sequence in that batch
     data_collator = DataCollatorForTokenClassification(tokenizer)
 
+    output_dir = Path(args.output_dir) if args and args.output_dir else MODEL_DIR
+
     training_args = TrainingArguments(
-        output_dir=str(MODEL_DIR / "checkpoints"),
-        num_train_epochs=5,
-        learning_rate=3e-5,
+        output_dir=str(output_dir / "checkpoints"),
+        num_train_epochs=args.epochs if args else 5,
+        learning_rate=args.lr if args else 3e-5,
         lr_scheduler_type="cosine",
-        warmup_ratio=0.1,
-        per_device_train_batch_size=32,
-        per_device_eval_batch_size=64,
+        warmup_ratio=args.warmup_ratio if args else 0.1,
+        per_device_train_batch_size=args.train_batch if args else 32,
+        per_device_eval_batch_size=args.eval_batch if args else 64,
         eval_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
@@ -200,5 +202,33 @@ def train():
     return trainer
 
 
+def parse_args():
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Fine-tune DistilBERT for animal NER")
+
+    parser.add_argument(
+        "--epochs", type=int, default=5, help="Number of training epochs"
+    )
+    parser.add_argument("--lr", type=float, default=3e-5, help="Learning rate")
+    parser.add_argument(
+        "--train_batch", type=int, default=32, help="Train batch size per device"
+    )
+    parser.add_argument(
+        "--eval_batch", type=int, default=64, help="Eval batch size per device"
+    )
+    parser.add_argument("--weight_decay", type=float, default=0.01, help="Weight decay")
+    parser.add_argument("--warmup_ratio", type=float, default=0.1, help="Warmup ratio")
+    parser.add_argument(
+        "--splits_dir", type=str, default=None, help="Override splits directory path"
+    )
+    parser.add_argument(
+        "--output_dir", type=str, default=None, help="Override model output directory"
+    )
+
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    train()
+    _args = parse_args()
+    train(_args)
