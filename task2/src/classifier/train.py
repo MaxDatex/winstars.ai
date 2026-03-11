@@ -1,3 +1,4 @@
+import argparse
 import copy
 import torch
 import torch.nn as nn
@@ -164,11 +165,16 @@ def train_phase(
     return model, best_val_acc
 
 
-def train(
-    data_dir: Path = DATA_DIR,
-    batch_size: int = 32,
-    device: str | None = None,
-):
+def train(args=None):
+    data_dir = Path(args.data_dir) if args and args.data_dir else DATA_DIR
+    batch_size = args.batch_size if args else 32
+    p1_epochs = args.phase1_epochs if args else 10
+    p2_epochs = args.phase2_epochs if args else 15
+    p1_lr = args.phase1_lr if args else 1e-3
+    p2_lr = args.phase2_lr if args else 1e-4
+    output_dir = Path(args.output_dir) if args and args.output_dir else MODEL_DIR
+    device = args.device if args and args.device else None
+
     if device is None:
         device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Device: {device}")
@@ -182,8 +188,8 @@ def train(
         model,
         train_loader,
         val_loader,
-        epochs=10,
-        lr=1e-3,
+        epochs=p1_epochs,
+        lr=p1_lr,
         device=device,
         phase_name="Phase 1 (head only)",
     )
@@ -196,27 +202,56 @@ def train(
         model,
         train_loader,
         val_loader,
-        epochs=15,
-        lr=1e-4,
+        epochs=p2_epochs,
+        lr=p2_lr,
         device=device,
         phase_name="Phase 2 (fine-tuning)",
     )
     print(f"\nBest val accuracy (phase 2): {phase2_acc:.4f}")
 
-    save_path = MODEL_DIR / "best_model.pth"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    save_path = output_dir / "best_model.pth"
     torch.save(model.state_dict(), save_path)
     print(f"\nSaved model → {save_path}")
-
-    print("\nEvaluating on test set...")
-    criterion = nn.CrossEntropyLoss()
-    test_loss, test_acc = run_epoch(
-        model, test_loader, criterion, None, device, training=False
-    )
-    print(f"Test loss : {test_loss:.4f}")
-    print(f"Test accuracy: {test_acc:.4f}")
 
     return model
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Train EfficientNet-B0 image classifier"
+    )
+
+    parser.add_argument(
+        "--data_dir", type=str, default=None, help="Path to animals10 directory"
+    )
+    parser.add_argument(
+        "--output_dir", type=str, default=None, help="Where to save the trained model"
+    )
+    parser.add_argument(
+        "--batch_size", type=int, default=32, help="Batch size for train and eval"
+    )
+    parser.add_argument(
+        "--phase1_epochs", type=int, default=10, help="Epochs for head-only phase"
+    )
+    parser.add_argument(
+        "--phase2_epochs", type=int, default=15, help="Epochs for fine-tuning phase"
+    )
+    parser.add_argument(
+        "--phase1_lr", type=float, default=1e-3, help="Learning rate for phase 1"
+    )
+    parser.add_argument(
+        "--phase2_lr", type=float, default=1e-4, help="Learning rate for phase 2"
+    )
+    parser.add_argument(
+        "--device",
+        type=str,
+        default=None,
+        help="Device: cuda / cpu (auto-detected if not set)",
+    )
+
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    train()
+    train(parse_args())
