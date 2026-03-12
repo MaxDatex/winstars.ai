@@ -4,3 +4,6 @@ numpy
 torch
 tqdm
 pandas
+matplotlib
+seaborn
+jupyter
