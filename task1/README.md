@@ -49,24 +49,9 @@ pip install -r requirements.txt
 
 ### 2. Usage Example
 
-You can switch between rf, nn, and cnn by simply changing the string input in the constructor.
+📊 Demo & Examples
 
-```python
-from src.data_loader import load_mnist_dataset
-from src.classifier import MnistClassifier
-
-# 1. Load Data
-X_train, X_test, y_train, y_test = load_mnist_dataset()
-
-# 2. Initialize (choose: 'rf', 'nn', or 'cnn')
-clf = MnistClassifier(algorithm='cnn')
-
-# 3. Train
-clf.train(X_train, y_train)
-
-# 4. Predict
-predictions = clf.predict(X_test)
-```
+For a visual walkthrough, performance metrics, and a comparison of all three models, refer to the [demo.ipynb](demo.ipynb) notebook.
 
 
 ## 🧠 Implementation Details
@@ -81,7 +66,3 @@ The system supports three distinct classification strategies, each tailored for 
 - **Data Normalization**: Handled in data_loader.py. All pixel values are scaled to a [0, 1] range to ensure stable training for the neural models.
 - **Hardware Acceleration**: Both the nn and cnn models are designed to automatically detect and utilize CUDA-enabled GPUs if available, falling back to CPU otherwise.
 - **Reproducibility**: The MnistClassifier wrapper centrally manages random seeds for the random, numpy, and torch libraries to ensure that experiments are consistent across different runs.
-
-📊 Demo & Examples
-
-For a visual walkthrough, performance metrics, and a comparison of all three models, refer to the demo.ipynb notebook.
